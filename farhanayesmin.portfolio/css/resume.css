@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.resume{
+	width: 100%;
+	height: 900px;
+}
+.container{
+	width: 100%;
+	height: 900px;
+}
+.text{
+	color: black;
+	font-size: 14px;
+	padding: 20px 100px 20px 150px;
+}
+.text a{
+	color: black;
+}
+
+.img{
+	width: 100%;
+}
+.text a { color: #5582d6; text-decoration: none; }
+
+
+
+@media only screen and (max-width: 740px) {
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+	
+
+
+
+}
+@media only screen and (max-width: 570px) {
+	
+
+
+
+}
+
+@media only screen and (max-width: 480px) {
+	
+
+
+
+}
+
+@media only screen and (max-width: 320px) {
+	
+
+	
+}
+
+/** iPhone only **/
+@media screen and (max-device-width: 480px) {
+	ul li { width: 150px; }
+}

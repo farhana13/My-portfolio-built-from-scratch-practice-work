@@ -1,0 +1,143 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	overflow-x: hidden;
+}
+
+/*section-one: navbar*/
+
+.nav{
+	justify-content: flex-end;
+	text-transform: uppercase;
+	color: #ddd;
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	padding: 5px 0;
+	background-color: #000000;
+}
+
+
+.nav a:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+
+.list-unstyled a{
+	
+	color: white;
+	justify-content: center;
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+
+/* section-two: home/ profile-name*/
+
+.profile-name{
+	width: 100%;
+	height: 900px;
+	background-image: url(a.jpg);
+	background-repeat: no-repeat;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 0;
+	
+
+}
+
+
+.profile-name h1{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 10em;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-top: 100px;
+	padding: 0;
+	text-transform: uppercase;
+
+}
+
+
+/*section-three: about*/
+#about{
+	padding-top: 120px;
+}
+#about a {
+	font-size: 20px;
+	color: white;
+}
+#about h2{
+	color: white;
+	text-transform: uppercase;
+}
+
+#about .about-img {
+	display: inline-block;
+	position: relative;
+}
+
+#about .about-img:before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	bottom: 8px;
+	left: 8px;
+}
+
+#about p {
+	line-height: 24px;
+	margin: 15px 0 30px;
+	color: white;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/* section-four: study-sources*/
+
+#online-sources {
+	padding: 60px 0 150px 0;
+}
+
+
+#online-sources .section-title {
+	background: #444 url(h.jpg) center center no-repeat fixed;
+	background-size: cover;
+	height: 400px;
+}
+#online-sources .section-title h2 {
+	color: #fff;
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	
+}
+
+
+#online-sources img {
+	width: 400px;
+	box-shadow: 15px 0 #a7c44c;
+}
+
+/* section-five: footer*/
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border: 1px solid black;
+}
